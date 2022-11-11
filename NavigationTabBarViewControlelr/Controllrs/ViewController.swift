@@ -12,6 +12,8 @@ class ViewController: UINavigationTabBarViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        self.title = "Tab"
         titleList = ["first","second","third"]
     }
     override func viewControllers() -> [UIViewController] {

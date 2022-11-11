@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "tabbarviewcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yabuki829/TabbarViewController.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "126b35841d587ef041ca9d94a5adbf994436aefb"
+      }
+    }
+  ],
+  "version" : 2
+}

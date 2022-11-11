@@ -13,6 +13,16 @@
 		1AE46398291E22EB0097123E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE46396291E22EB0097123E /* Main.storyboard */; };
 		1AE4639A291E22F40097123E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE46399291E22F40097123E /* Assets.xcassets */; };
 		1AE4639D291E22F40097123E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE4639B291E22F40097123E /* LaunchScreen.storyboard */; };
+		1AE463A5291E23740097123E /* UINavigationTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463A4291E23740097123E /* UINavigationTabBarViewController.swift */; };
+		1AE463A7291E29640097123E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463A6291E29640097123E /* Extension.swift */; };
+		1AE463AA291E33350097123E /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463A9291E33350097123E /* ContentCollectionViewCell.swift */; };
+		1AE463AC291E33630097123E /* ContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463AB291E33630097123E /* ContentViewCell.swift */; };
+		1AE463B1291E3D760097123E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463B0291E3D760097123E /* FirstViewController.swift */; };
+		1AE463B3291E3D850097123E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463B2291E3D850097123E /* SecondViewController.swift */; };
+		1AE463B5291E3D950097123E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463B4291E3D950097123E /* ThirdViewController.swift */; };
+		1AE463B7291E442C0097123E /* ButtonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463B6291E442C0097123E /* ButtonViewCell.swift */; };
+		1AE463B9291E443A0097123E /* ButtonCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE463B8291E443A0097123E /* ButtonCollectionView.swift */; };
+		1AE463C1291E68750097123E /* TabbarViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 1AE463C0291E68750097123E /* TabbarViewController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,15 @@
 		1AE46399291E22F40097123E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AE4639C291E22F40097123E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AE4639E291E22F40097123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE463A4291E23740097123E /* UINavigationTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationTabBarViewController.swift; sourceTree = "<group>"; };
+		1AE463A6291E29640097123E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1AE463A9291E33350097123E /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AE463AB291E33630097123E /* ContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewCell.swift; sourceTree = "<group>"; };
+		1AE463B0291E3D760097123E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1AE463B2291E3D850097123E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1AE463B4291E3D950097123E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		1AE463B6291E442C0097123E /* ButtonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewCell.swift; sourceTree = "<group>"; };
+		1AE463B8291E443A0097123E /* ButtonCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE463C1291E68750097123E /* TabbarViewController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,56 @@
 		1AE4638F291E22EB0097123E /* NavigationTabBarViewControlelr */ = {
 			isa = PBXGroup;
 			children = (
+				1AE463AF291E3D530097123E /* Controllrs */,
+				1AE463A8291E33230097123E /* Views */,
 				1AE46390291E22EB0097123E /* AppDelegate.swift */,
 				1AE46392291E22EB0097123E /* SceneDelegate.swift */,
-				1AE46394291E22EB0097123E /* ViewController.swift */,
 				1AE46396291E22EB0097123E /* Main.storyboard */,
 				1AE46399291E22F40097123E /* Assets.xcassets */,
 				1AE4639B291E22F40097123E /* LaunchScreen.storyboard */,
 				1AE4639E291E22F40097123E /* Info.plist */,
+				1AE463A4291E23740097123E /* UINavigationTabBarViewController.swift */,
+				1AE463A6291E29640097123E /* Extension.swift */,
 			);
 			path = NavigationTabBarViewControlelr;
+			sourceTree = "<group>";
+		};
+		1AE463A8291E33230097123E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AE463AE291E348F0097123E /* Content */,
+				1AE463AD291E34850097123E /* Button */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AE463AD291E34850097123E /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				1AE463B6291E442C0097123E /* ButtonViewCell.swift */,
+				1AE463B8291E443A0097123E /* ButtonCollectionView.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		1AE463AE291E348F0097123E /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				1AE463AB291E33630097123E /* ContentViewCell.swift */,
+				1AE463A9291E33350097123E /* ContentCollectionViewCell.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		1AE463AF291E3D530097123E /* Controllrs */ = {
+			isa = PBXGroup;
+			children = (
+				1AE46394291E22EB0097123E /* ViewController.swift */,
+				1AE463B0291E3D760097123E /* FirstViewController.swift */,
+				1AE463B2291E3D850097123E /* SecondViewController.swift */,
+				1AE463B4291E3D950097123E /* ThirdViewController.swift */,
+			);
+			path = Controllrs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,9 @@
 			dependencies = (
 			);
 			name = NavigationTabBarViewControlelr;
+			packageProductDependencies = (
+				1AE463C0291E68750097123E /* TabbarViewController */,
+			);
 			productName = NavigationTabBarViewControlelr;
 			productReference = 1AE4638D291E22EB0097123E /* NavigationTabBarViewControlelr.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 1AE46384291E22EA0097123E;
+			packageReferences = (
+				1AE463BF291E68750097123E /* XCRemoteSwiftPackageReference "TabbarViewController" */,
+			);
 			productRefGroup = 1AE4638E291E22EB0097123E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE463A7291E29640097123E /* Extension.swift in Sources */,
 				1AE46395291E22EB0097123E /* ViewController.swift in Sources */,
+				1AE463B5291E3D950097123E /* ThirdViewController.swift in Sources */,
+				1AE463AA291E33350097123E /* ContentCollectionViewCell.swift in Sources */,
+				1AE463B9291E443A0097123E /* ButtonCollectionView.swift in Sources */,
+				1AE463B3291E3D850097123E /* SecondViewController.swift in Sources */,
+				1AE463B1291E3D760097123E /* FirstViewController.swift in Sources */,
 				1AE46391291E22EB0097123E /* AppDelegate.swift in Sources */,
+				1AE463B7291E442C0097123E /* ButtonViewCell.swift in Sources */,
+				1AE463A5291E23740097123E /* UINavigationTabBarViewController.swift in Sources */,
+				1AE463AC291E33630097123E /* ContentViewCell.swift in Sources */,
 				1AE46393291E22EB0097123E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +434,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AE463BF291E68750097123E /* XCRemoteSwiftPackageReference "TabbarViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yabuki829/TabbarViewController.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AE463C0291E68750097123E /* TabbarViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AE463BF291E68750097123E /* XCRemoteSwiftPackageReference "TabbarViewController" */;
+			productName = TabbarViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AE46385291E22EA0097123E /* Project object */;
 }

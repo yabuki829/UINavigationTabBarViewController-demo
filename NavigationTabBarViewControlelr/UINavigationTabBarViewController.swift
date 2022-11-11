@@ -14,16 +14,6 @@ public struct TabColor {
     public var backgroundColor :UIColor
 }
 
-public struct TabContent{
-    let view:UIView
-    let height:CGFloat
-    
-    public init(view:UIView,height:CGFloat){
-        self.view = view
-        self.height = height
-    }
-}
-
 class UINavigationTabBarViewController:UIViewController, reloadDelegate{
     
     
@@ -43,6 +33,7 @@ class UINavigationTabBarViewController:UIViewController, reloadDelegate{
         return cv
     }()
     override func viewDidLoad() {
+        
         configureCollectionView()
     }
     func viewControllers() -> [UIViewController] {
